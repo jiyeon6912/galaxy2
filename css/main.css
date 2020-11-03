@@ -50,6 +50,7 @@ h4 {
   color: #fff;
   padding: 14px 40px;
   border-radius: 80px; /*height와 같은 px로 지정함*/
+  cursor: pointer;
 }
 
 .btn_line {
@@ -168,6 +169,62 @@ h4 {
   padding: 10px 0;
   border-bottom: 1px solid #111;
   margin-right: 40px;
+}
+
+.slide_btn {
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  padding: 14px 40px;
+  border-radius: 80px; /*height와 같은 px로 지정함*/
+  cursor: pointer;
+}
+
+.slide_modal {
+  position: absolute;
+  top: 120px;
+  left: 500px;
+  width: 600px;
+  height: 400px;
+  /* background: url(../images/sale_2.jpg) no-repeat center / cover; */
+  background: #fec200;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  padding-bottom: 40px;
+  opacity: 0;
+}
+
+.slide_modal.open {
+  opacity: 1;
+}
+
+.slide_modal h4 {
+  text-align: center;
+  padding: 20px 0 20px;
+}
+
+.slide_modal p {
+  font-size: 20px;
+  text-align: center;
+  padding: 5px 0;
+}
+.sale_photo img {
+  width: 40%;
+  margin-left: 170px;
+}
+
+.slider .close {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  background: #ff1830;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 450px;
+  /* padding-bottom: 20px; */
+  cursor: pointer;
 }
 
 /* section_01 */
